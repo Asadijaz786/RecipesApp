@@ -31,7 +31,7 @@
                 android:src="@drawable/unsplash"/>
 
             <TextView
-                android:id="@+id/tv_dish_name"
+                android:id="@+id/tv_dish_type"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_alignParentStart="true"
@@ -40,7 +40,7 @@
                 android:maxEms="10"
                 android:maxLines="2"
                 android:padding="@dimen/_10sdp"
-                android:text="Dish Name"
+                android:text="Dish Type"
                 android:textColor="@color/black"
                 android:textSize="@dimen/_11ssp" />
         </RelativeLayout>
