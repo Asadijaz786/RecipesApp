@@ -3,6 +3,6 @@ package com.cesar.recipesapp.model
 
 data class SubRecipesUiModel (
 
-    val recipeName:String,
-    val recipeImgUrl:String
+    val subRecipeName:String,
+    val subRecipeImgUrl:String
         )

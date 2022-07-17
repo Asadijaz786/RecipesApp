@@ -20,6 +20,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="All Recipes"
+                android:layout_marginTop="@dimen/_10sdp"
                 android:textSize="@dimen/_20sdp"
                 android:textColor="@color/black"
                 android:fontFamily="@font/gilroy_bold"
@@ -59,7 +60,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Category main"
+                android:text="Main Category"
                 android:textSize="@dimen/_15ssp"
                 android:textColor="@color/black"
                 android:fontFamily="@font/gilroy_bold"

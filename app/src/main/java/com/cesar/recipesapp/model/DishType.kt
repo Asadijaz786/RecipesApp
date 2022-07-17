@@ -3,7 +3,7 @@ package com.cesar.recipesapp.model
 
 enum class DishType {
   FastFood,
-    Drink,
+    Fish,
     Chicken,
     Vegeterian
 }

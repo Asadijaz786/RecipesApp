@@ -1,47 +1,68 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     android:background="@color/white"
     tools:context=".SplashActivity">
 
     <ImageView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:scaleType="centerCrop"
-        android:src="@drawable/splashimg" />
+        android:id="@+id/splash_img"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/_50sdp"
+        android:src="@drawable/splashing" />
+
+
 
     <FrameLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentStart="true"
-        android:layout_marginBottom="@dimen/_20sdp"
-        android:layout_marginStart="@dimen/_20sdp"
-        android:gravity="center">
-
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Recipes App"
+            android:textSize="@dimen/_30sdp"
+            android:textColor="@color/red"
+            android:fontFamily="@font/gilroy_bold"
+            android:gravity="center"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_60sdp"
+            android:textAlignment="center"
+            android:padding="@dimen/_20sdp"
+            android:text="Find and share everyday cooking inspiration on RecipesApp. Discover recipes, cooks, videos, and how-tos based on the food you love and the friends you follow."
+            android:textSize="@dimen/_10sdp"
+            android:textColor="@color/light_red"
+            android:fontFamily="@font/gilroy_bold"
+            android:gravity="center"/>
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/btnGetStarted"
             android:text="Get Started"
             android:textColor="@color/white"
-            android:visibility="invisible"
+            android:backgroundTint="@color/yellow"
+            android:layout_marginTop="@dimen/_270sdp"
+            android:layout_marginLeft="@dimen/_160sdp"
             android:gravity="center"
             android:background="@drawable/btn_bg"
             android:paddingStart="@dimen/_20sdp"
             android:paddingEnd="@dimen/_20sdp" />
 
-        <ProgressBar
-            android:layout_width="@dimen/_20sdp"
-            android:layout_height="@dimen/_20sdp"
-            android:layout_gravity="center"
-            android:outlineAmbientShadowColor="@color/brown"
-            android:id="@+id/loader"/>
+<!--        <ProgressBar-->
+<!--            android:layout_width="@dimen/_20sdp"-->
+<!--            android:layout_height="@dimen/_20sdp"-->
+<!--            android:layout_gravity="center"-->
+<!--            android:outlineAmbientShadowColor="@color/brown"-->
+<!--            android:id="@+id/loader"/>-->
 
     </FrameLayout>
 
 
-</RelativeLayout>
+</LinearLayout>

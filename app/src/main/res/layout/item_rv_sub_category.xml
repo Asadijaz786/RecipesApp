@@ -16,7 +16,7 @@
         app:cardElevation="@dimen/_5sdp">
 
         <ImageView
-            android:id="@+id/img_dish"
+            android:id="@+id/item_dish_photo"
             android:layout_width="match_parent"
             android:src="@drawable/unsplash"
             android:scaleType="centerCrop"
